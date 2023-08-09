@@ -26,10 +26,3 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo test_param: ${{ inputs.test_param }}
-          echo deployable: ${{ inputs.deployable }}
-          echo randomNumber: ${{ inputs.randomNumber }}
