@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       test_param: 
-        required: true
+        required: false
         type: string
       deployable:
         required: true
