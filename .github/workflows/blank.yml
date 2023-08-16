@@ -22,6 +22,24 @@ on:
       randomNumber:
         required: true
         type: number
+      randomNumber2:
+        required: false
+        type: number
+      randomNumber3:
+        required: false
+        type: number
+      randomNumber4:
+        required: false
+        type: number
+      randomNumber5:
+        required: false
+        type: number
+      randomNumber6:
+        required: false
+        type: number
+      randomNumber7:
+        required: false
+        type: number
         
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
