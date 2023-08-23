@@ -23,6 +23,14 @@ jobs:
           tenant: 'vzx38435'
           endpoint: 'dev.apps.dynatracelabs.com'
           workflow_id: '571dfd49-9e18-4603-843a-2681f40be9eb'
+          payload: |
+            {
+              "input": {
+                "test_msg": "hello world via github"
+              },
+              "params": {},
+              "uniqueQualifier": ""
+            }
       - name: Get response body
         run: |
           echo Output body ${{ steps.triggerDtWorkflow.outputs.response_body }}
