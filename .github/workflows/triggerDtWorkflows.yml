@@ -22,7 +22,7 @@ jobs:
           client_secret: ${{ secrets.CLIENT_SECRET }}
           tenant: 'vzx38435'
           endpoint: 'dev.apps.dynatracelabs.com'
-          workflow_id: '571dfd49-9e18-4603-843a-2681f40be9eb'
+          workflow_id: '3c9ef166-bae1-4c03-8b24-f19d32c9c42e'
           payload: |
             {
               "input": {
